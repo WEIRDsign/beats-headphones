@@ -1,0 +1,74 @@
+:root {
+    --bgwhite: white;
+    --pink: #FF4948;
+    --black: black;
+    --bgpink: #FFE5EE;
+    --bggreen: #E5F1FF;
+    --bggreen-2: #E5FFFB;
+    --darkpink: #FFF4F4;
+    --footercolor: #E86564;
+}
+
+.rubik {
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.rubik_2 {
+    font-size: 44px;
+    font-weight: 700;
+}
+
+.rubik_3 {
+    font-size: 31px;
+    font-weight: 500;
+}
+
+.rubik_4 {
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 70%;
+}
+
+.rubik_5 {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--pink);
+}
+
+.rubik_6 {
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.active_color {
+    color: var(--black);
+}
+
+.active_color_2 {
+    color: var(--bgwhite);
+}
+
+.icon {
+    padding: 15px 15px 15px 15px;
+    background: var(--bgwhite);
+    border-radius: 50%;
+}
+
+.text_decoration {
+    text-decoration: none;
+    color: var(--bgwhite);
+}
+
+.text_decoration:active {
+    color: var(--black);
+}
+
+.margin {
+    margin-top: 130px;
+    margin-left: 246px;
+}
+
+.opacity {
+    opacity: 70%;
+}
