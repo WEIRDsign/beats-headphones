@@ -50,11 +50,22 @@
 }
 
 .icon {
-    padding: 15px 15px 15px 15px;
+    padding: 12px 14px 12px 14px;
     background: var(--bgwhite);
     border-radius: 50%;
+    border: none;
 }
 
+.icon:hover {
+    cursor: pointer;
+}
+
+.icon:active {
+    background: var(--footercolor);
+}
+.column{
+    border: none;
+}
 .text_decoration {
     text-decoration: none;
     color: var(--bgwhite);
